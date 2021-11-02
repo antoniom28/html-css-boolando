@@ -42,6 +42,7 @@ header{
     left:0;
     height: 85%;
     width: 100%;
+    overflow: hidden;
 }
 .testo{
     background-color: rgb(18, 124, 218);
@@ -50,4 +51,27 @@ header{
     left:0;
     height: 15%;
     width: 100%;
+}
+
+.immagine img{
+    width: 100%;
+}
+
+.cuore{
+    position:absolute;
+    right:0;
+    top:15px;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 32px;
+}
+
+button{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(255, 255, 255);
+    border:none;
+    cursor:pointer;
 }
