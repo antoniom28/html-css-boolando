@@ -60,10 +60,12 @@ header{
     padding:8px 0;
 }
 
-.immagine img{
+img{
     width: 100%;
     height: 100%;
     position: absolute;
+    left: 0;
+    top: 0;
 }
 
 .cuore{
@@ -123,10 +125,44 @@ header{
     content: " \20AC";
 }
 
-.nascosta{
+/*.nascosta{
     display: none;
 }
 
 .immagine:hover .nascosta{
     display: block;
-}
+}*/
+
+/*-------------------------"BONUS"----------------------------*/
+.flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0s;
+    transform-style: preserve-3d;
+  
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    transition: transform 1.1s;
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .flip-card-back {
+    transform: rotateY(180deg);
+  }
