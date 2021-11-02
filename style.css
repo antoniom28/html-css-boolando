@@ -122,3 +122,11 @@ header{
 .prezzo-scontato::after{
     content: " \20AC";
 }
+
+.nascosta{
+    display: none;
+}
+
+.immagine:hover .nascosta{
+    display: block;
+}
