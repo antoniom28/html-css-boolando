@@ -34,3 +34,20 @@ header{
 .centrale{
     margin:0 2%;
 }
+
+.immagine{
+    background-color: rgb(28, 209, 89);
+    position: absolute;
+    top:0;
+    left:0;
+    height: 85%;
+    width: 100%;
+}
+.testo{
+    background-color: rgb(18, 124, 218);
+    position: absolute;
+    bottom:0;
+    left:0;
+    height: 15%;
+    width: 100%;
+}
