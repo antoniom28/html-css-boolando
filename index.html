@@ -16,8 +16,11 @@
             <div class="riga">
                 <div class="carta">
                     <div class="immagine">
-                        <img src="img/1.webp" alt="">
+                        <img src="img/1.webp" alt=""></img>
                         <div class="cuore"><button id="button1" onclick="myfunction1()">&#10084</button></div>
+                        <div class="info sconto">-50%</div>
+                        <div class="info sost">Sostenibilità</div>
+                        
                     </div>
                     <div class="testo">testo</div>
                 </div>
@@ -25,6 +28,7 @@
                     <div class="immagine">
                         <img src="img/2.webp" alt="">
                         <div class="cuore"><button id="button2" onclick="myfunction2()">&#10084</button></div>
+                        <div class="info sconto">-30%</div>
                     </div>
                     <div class="testo">testo</div>
                 </div>
@@ -32,6 +36,7 @@
                     <div class="immagine">
                         <img src="img/3.webp" alt="">
                         <div class="cuore"><button id="button3" onclick="myfunction3()">&#10084</button></div>
+                        <div class="info sconto">-30%</div>
                     </div>
                     <div class="testo">testo</div>
                 </div>
@@ -41,6 +46,8 @@
                     <div class="immagine">
                         <img src="img/4.webp" alt="">
                         <div class="cuore"><button id="button4" onclick="myfunction4()">&#10084</button></div>
+                        <div class="info sconto">-50%</div>
+                        <div class="info sost">Sostenibilità</div>
                     </div>
                     <div class="testo">testo</div>
                 </div>
@@ -55,6 +62,7 @@
                     <div class="immagine">
                         <img src="img/6.webp" alt="">
                         <div class="cuore"><button id="button6" onclick="myfunction6()">&#10084</button></div>
+                        <div class="info sost">Sostenibilità</div>
                     </div>
                     <div class="testo">testo</div>
                 </div>
@@ -66,22 +74,28 @@
 
 <script>
     function myfunction1(){
-        document.getElementById('button1').style.color = "red";   
+        document.getElementById('button1').style.color = "red"; 
+        document.getElementById('button1').style.cursor="default"
     }
     function myfunction2(){
-        document.getElementById('button2').style.color = "red";   
+        document.getElementById('button2').style.color = "red"; 
+        document.getElementById('button2').style.cursor="default"  
     }
     function myfunction3(){
         document.getElementById('button3').style.color = "red";   
+        document.getElementById('button3').style.cursor="default"
     }
     function myfunction4(){
-        document.getElementById('button4').style.color = "red";   
+        document.getElementById('button4').style.color = "red"; 
+        document.getElementById('button4').style.cursor="default"  
     }
     function myfunction5(){
-        document.getElementById('button5').style.color = "red";   
+        document.getElementById('button5').style.color = "red";  
+        document.getElementById('button5').style.cursor="default" 
     }
     function myfunction6(){
         document.getElementById('button6').style.color = "red";   
+        document.getElementById('button6').style.cursor="default"
     }
 </script>
 </body>
