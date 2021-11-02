@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    text-align: center;
+}
+
+.contenitore{
+    position: absolute;
+    width: 96%;
+    height: 96%;
+    bottom: 2%;
+    left: 2%;
+    background-color: blue;
+}
+
+.riga{
+    background-color: violet;
+    height: 48%;
+    margin-top:9px;
+}
+
+.riga .carta{
+    float: left;
+    position: relative;
+    background-color: rgb(136, 0, 0);
+    width: 32%;
+    height: 100%;
+}
+
+.centrale{
+    margin:0 2%;
+}
