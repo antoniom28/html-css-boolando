@@ -14,11 +14,11 @@ header{
     height: 96%;
     bottom: 2%;
     left: 2%;
-    background-color: blue;
+    /*background-color: blue;*/
 }
 
 .riga{
-    background-color: violet;
+    /*background-color: violet;*/
     height: 48%;
     margin-top:9px;
 }
@@ -26,7 +26,7 @@ header{
 .riga .carta{
     float: left;
     position: relative;
-    background-color: rgb(136, 0, 0);
+    /*background-color: rgb(136, 0, 0);*/
     width: 32%;
     height: 100%;
 }
@@ -36,7 +36,7 @@ header{
 }
 
 .immagine{
-    background-color: rgb(28, 209, 89);
+    /*background-color: rgb(28, 209, 89);*/
     position: relative;
     top:0;
     left:0;
@@ -45,12 +45,13 @@ header{
     overflow: hidden;
 }
 .testo{
-    background-color: rgb(18, 124, 218);
+    /*background-color: rgb(18, 124, 218);*/
     position: absolute;
     bottom:0;
     left:0;
     height: 15%;
     width: 100%;
+    font-size: 12px;
 }
 
 .immagine img{
@@ -64,12 +65,12 @@ header{
     top:15px;
     height: 30px;
     width: 30px;
-    background-color: rgb(255, 255, 255);
+    /*background-color: rgb(255, 255, 255);*/
     text-align: center;
     line-height: 32px;
 }
 
-button{
+.cuore button{
     height: 30px;
     width: 30px;
     background-color: rgb(255, 255, 255);
@@ -94,4 +95,23 @@ button{
     position: relative;
     top: 220px;
     float: left;
+}
+
+.testo .prezzo{
+    text-decoration: line-through;
+}
+
+.testo .prezzo-scontato{
+    color: red;
+}
+
+.testo h4{
+    text-transform: uppercase;
+}
+
+.prezzo::after{
+    content: " \20AC";
+}
+.prezzo-scontato::after{
+    content: " \20AC";
 }
