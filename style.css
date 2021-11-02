@@ -9,18 +9,17 @@ header{
 }
 
 .contenitore{
-    position: absolute;
-    width: 96%;
-    height: 96%;
-    bottom: 2%;
-    left: 2%;
+    position: relative;
+    width: 80%;
+    height: 1200px;
+    left: 10%;
+    margin-top:10px;
     /*background-color: blue;*/
 }
 
 .riga{
     /*background-color: violet;*/
-    height: 48%;
-    margin-top:9px;
+    height: 50%;
 }
 
 .riga .carta{
@@ -44,6 +43,10 @@ header{
     width: 100%;
     overflow: hidden;
 }
+/*.immagine:hover{
+    height: 95%;
+}*/
+
 .testo{
     /*background-color: rgb(18, 124, 218);*/
     position: absolute;
@@ -54,10 +57,12 @@ header{
     font-size: 12px;
     line-height: 1;
     word-break: break-all;
+    padding:8px 0;
 }
 
 .immagine img{
     width: 100%;
+    height: 100%;
     position: absolute;
 }
 
@@ -95,7 +100,7 @@ header{
     font-weight: bold;
     font-size: small;
     position: relative;
-    top: 220px;
+    top: 92%;
     float: left;
 }
 
